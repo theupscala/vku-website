@@ -7,7 +7,7 @@ import aboutImg from '../../assets/images/services/financial-advisory.jpg';
 
 const AboutPreview = () => {
   return (
-    <div className="py-24 bg-vku-surface">
+    <div className="pt-8 pb-20 md:pt-10 md:pb-24 bg-vku-surface">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
@@ -22,9 +22,9 @@ const AboutPreview = () => {
           </div>
 
           <div >
-            <h4 className="text-[16px] md:text-[17px] font-semibold text-vku-orange mb-5 text-center">ABOUT  V. K. Umbarkar & Co.</h4>
+            <h4 className="text-[16px] md:text-[17px] font-semibold text-vku-orange mb-5 text-center">About  V. K. Umbarkar & Co.</h4>
             <SectionHeading
-              title="a journey built on trust. afuture shaped by possibility."
+              title="a journey built on trust. a future shaped by possibility."
 
             />
             <div className="space-y-5 text-vku-text-secondary text-[17px] leading-relaxed">

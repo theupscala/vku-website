@@ -26,7 +26,7 @@ const ServicesSection = () => {
   }, []);
 
   return (
-    <div className="py-24 bg-white border-t border-gray-200" ref={sectionRef}>
+    <div className="pt-20 pb-8 md:pt-24 md:pb-10 bg-white border-t border-gray-200" ref={sectionRef}>
       <Container className="max-w-[1400px]">
         <div className={`text-center mb-16 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <SectionHeading
