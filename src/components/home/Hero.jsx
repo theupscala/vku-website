@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import heroImg1 from '../../assets/vkuhomehero1.avif';
-import heroImg2 from '../../assets/vkuhomehero2.jpg';
+import heroImg2 from '../../assets/new-background image.jpeg';
 import heroImg3 from '../../assets/vkuhomehero3.avif';
 import heroImg4 from '../../assets/vkuhomehero4.jpg';
 
 const slides = [
   {
     id: 1,
-    image: heroImg1,
+    image: heroImg2,
     text: 'From Compliance to Clarity.'
   },
   {
     id: 2,
-    image: heroImg2,
+    image: heroImg1,
     text: 'Numbers tell a story.\nWe help businesses understand it.'
   },
   {
@@ -47,7 +47,7 @@ const Hero = () => {
   }, [currentSlide]);
 
   return (
-    <div className="relative w-full h-[650px] md:h-[calc(100vh-60px)] overflow-hidden group bg-vku-text-primary   m-0 p-0">
+    <div className="relative w-full h-[650px] md:h-[calc(100vh-95px)] overflow-hidden group bg-vku-text-primary   m-0 p-0">
       {slides.map((slide, index) => (
         <div
           key={slide.id}

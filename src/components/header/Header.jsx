@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import vkuLogo from '../../assets/images/vkulogo.jpeg';
+import vkuLogo from '../../vkulogo-FoJbLOYd.png';
 
 const Header = () => {
   const location = useLocation();
@@ -13,7 +13,7 @@ const Header = () => {
         zIndex: 100,
         backgroundColor: '#e9e7e7ef',
         borderBottom: '1px solid #ffffffff',
-        height: '70px',
+        height: '95px',
         display: 'flex',
         alignItems: 'center',
         margin: 0,
@@ -36,10 +36,9 @@ const Header = () => {
             src={vkuLogo}
             alt="V. K. Umbarkar & Co. - Chartered Accountants"
             style={{ 
-              height: '65px', // scaled slightly for best fit in 80px navbar
+              height: '82px',
               width: 'auto', 
-              objectFit: 'contain',
-              mixBlendMode: 'multiply'
+              objectFit: 'contain'
             }}
           />
         </Link>
