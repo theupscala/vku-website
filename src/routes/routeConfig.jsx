@@ -7,6 +7,7 @@ const About = lazy(() => import('../pages/About'));
 const Services = lazy(() => import('../pages/Services'));
 const Blog = lazy(() => import('../pages/Blog'));
 const BlogDetails = lazy(() => import('../pages/BlogDetails'));
+const JoinUs = lazy(() => import('../pages/JoinUs'));
 const Contact = lazy(() => import('../pages/Contact'));
 const NotFound = lazy(() => import('../pages/errors/NotFound'));
 
@@ -16,6 +17,7 @@ export const routes = {
     { path: '/', element: <Home /> },
     { path: '/about', element: <About /> },
     { path: '/services', element: <Services /> },
+    { path: '/join-us', element: <JoinUs /> },
     { path: '/blog', element: <Blog /> },
     { path: '/blog/:slug', element: <BlogDetails /> },
     { path: '/contact', element: <Contact /> },
