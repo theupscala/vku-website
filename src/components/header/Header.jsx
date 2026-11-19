@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import vkuLogo from '../../assets/images/vkulogo.jpeg';
+import vkuLogo from '../../assets/images/vkulogo-wo-bg.png';
 
 const Header = () => {
   const location = useLocation();
