@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import vkuLogo from '../../vkulogo-FoJbLOYd.png';
+import vkuLogo from '../../assets/images/vkulogo.jpeg';
 
 const Header = () => {
   const location = useLocation();
@@ -23,24 +23,54 @@ const Header = () => {
     >
       <div style={{ maxWidth: '1400px', width: '100%', margin: '0 auto', padding: '0 32px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
 
-        {/* Logo - Clean Integration */}
+        {/* Logo - Emblem + Clear Text */}
         <Link
           to="/"
           style={{
             display: 'flex',
             alignItems: 'center',
+            gap: '14px',
             textDecoration: 'none'
           }}
         >
           <img
             src={vkuLogo}
-            alt="V. K. Umbarkar & Co. - Chartered Accountants"
+            alt="CA India"
             style={{
-              height: '82px',
+              height: '70px',
               width: 'auto',
               objectFit: 'contain'
             }}
           />
+          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <span
+              style={{
+                fontFamily: "'Lato', sans-serif",
+                fontSize: '22px',
+                fontWeight: 700,
+                color: '#164e7c',
+                lineHeight: 1.15,
+                letterSpacing: '-0.01em',
+                whiteSpace: 'nowrap'
+              }}
+            >
+              V. K. Umbarkar & Co.
+            </span>
+            <span
+              style={{
+                fontFamily: "'Lato', sans-serif",
+                fontSize: '13.5px',
+                fontWeight: 600,
+                color: '#164e7c',
+                letterSpacing: '0.04em',
+                lineHeight: 1.2,
+                marginTop: '4px',
+                whiteSpace: 'nowrap'
+              }}
+            >
+              Chartered Accountants
+            </span>
+          </div>
         </Link>
 
         {/* Navigation - Clean, Readable Menu Items */}
