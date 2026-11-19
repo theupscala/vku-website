@@ -28,7 +28,10 @@
     font-weight: 700;
     line-height: 1.35;
   }
-  p { @apply text-base text-vku-text-primary; }
+  p {
+    font-size: 15px;
+    line-height: 1.65;
+  }
   
   .text-small { @apply text-sm text-vku-text-secondary; }
   .text-caption { @apply text-xs text-vku-text-muted; }

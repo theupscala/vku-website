@@ -11,7 +11,7 @@ const FeatureSection = () => {
             <h3 className="text-3xl font-bold text-vku-text-primary mb-6">
               Data-Driven Methodologies
             </h3>
-            <p className="text-lg text-vku-text-secondary mb-6">
+            <p className="text-[15px] text-vku-text-secondary mb-6">
               We leverage advanced analytics and proven proprietary frameworks to uncover hidden opportunities and mitigate complex risks.
             </p>
             <ul className="space-y-4">
@@ -45,7 +45,7 @@ const FeatureSection = () => {
             <h3 className="text-3xl font-bold text-vku-text-primary mb-6">
               Global Perspective, Local Expertise
             </h3>
-            <p className="text-lg text-vku-text-secondary mb-6">
+            <p className="text-[15px] text-vku-text-secondary mb-6">
               With an extensive network of industry experts across multiple continents, we provide localized strategies powered by a global perspective.
             </p>
             <ul className="space-y-4">

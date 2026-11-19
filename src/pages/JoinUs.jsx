@@ -21,7 +21,7 @@ const JoinUs = () => {
               Shape the Future of Finance With Us
             </h2>
             <div className="w-16 h-1 bg-vku-orange mx-auto mb-6"></div>
-            <p className="text-lg text-vku-text-secondary leading-relaxed">
+            <p className="text-[15px] text-vku-text-secondary leading-relaxed">
               We are expanding our teams across our offices in Nagpur, Pune, Chhindwara, and Wardha.
               Detailed openings and application portals will be published here shortly.
             </p>

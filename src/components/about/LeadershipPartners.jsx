@@ -73,7 +73,7 @@ const LeadershipPartners = () => {
           <h2 className="text-[20px] font-bold text-vku-primary leading-[1.3] mb-6">
             Meet the professionals behind VKU.
           </h2>
-          <p className="text-[16px] md:text-[18px] text-[#667785] leading-[1.7] max-w-[800px]">
+          <p className="text-[15px] text-[#667785] leading-[1.65] max-w-[800px]">
             Our firm's expertise is built through the experience, professional commitment and contributions of our partners and team.
             <br className="hidden md:block" /><br className="hidden md:block" />
             We bring together capabilities across audit, taxation, finance, banking and business advisory to support the varied requirements of our clients.
@@ -106,7 +106,7 @@ const LeadershipPartners = () => {
               <p className="text-[15px] lg:text-[17px] text-[#667785] mb-8">
                 B. Com, FCA, DISA (ICAI), SAP (FI)
               </p>
-              <p className="text-[16px] lg:text-[18px] text-[#667785] leading-[1.7] max-w-[600px]">
+              <p className="text-[15px] text-[#667785] leading-[1.65] max-w-[600px]">
                 Mayank is a finance professional with corporate experience at EY and Wipro. He leads VKU's consulting, consulting CFO and startup advisory practice, with experience across management consulting, finance, audit and taxation.
               </p>
             </div>

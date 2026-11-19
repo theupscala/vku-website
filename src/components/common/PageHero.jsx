@@ -26,7 +26,7 @@ const PageHero = ({ eyebrow, title, description, isQuote = false }) => {
         </h1>
         
         {/* Supporting Description */}
-        <p className="text-[17px] md:text-[18px] lg:text-[20px] text-[#667785] font-normal leading-[1.65] md:leading-[1.7] lg:leading-[1.75] max-w-[1050px] animate-fade-in-up" style={{ animationDelay: '300ms' }}>
+        <p className="text-[15px] text-[#667785] font-normal leading-[1.65] max-w-[1050px] animate-fade-in-up" style={{ animationDelay: '300ms' }}>
           {description}
         </p>
       </Container>

@@ -18,7 +18,7 @@ const MissionVision = ({ missionData, visionData }) => {
             <h3 className="text-3xl font-bold text-gray-800 mb-6">
               {missionData.title}
             </h3>
-            <p className="text-lg text-gray-500 leading-relaxed flex-1">
+            <p className="text-[15px] text-gray-500 leading-relaxed flex-1">
               {missionData.description}
             </p>
           </div>
@@ -31,7 +31,7 @@ const MissionVision = ({ missionData, visionData }) => {
             <h3 className="text-3xl font-bold text-gray-800 mb-6">
               {visionData.title}
             </h3>
-            <p className="text-lg text-gray-500 leading-relaxed flex-1">
+            <p className="text-[15px] text-gray-500 leading-relaxed flex-1">
               {visionData.description}
             </p>
           </div>

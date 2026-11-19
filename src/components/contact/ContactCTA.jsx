@@ -54,7 +54,7 @@ const ContactCTA = () => {
             <h2 className="text-[20px] font-bold text-[#175888] leading-[1.3] mb-6">
               Let's talk about your business requirements.
             </h2>
-            <p className="text-[17px] lg:text-[19px] text-[#667785] leading-[1.7] max-w-[600px]">
+            <p className="text-[15px] text-[#667785] leading-[1.65] max-w-[600px]">
               Whether you are looking for audit support, tax and compliance services, business advisory or finance operations support, we invite you to connect with our team.
               <br /><br />
               Tell us about your requirements. We will help you understand the relevant professional service areas and next steps.

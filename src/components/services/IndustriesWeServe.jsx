@@ -17,7 +17,7 @@ const IndustriesWeServe = () => {
           <h2 className="text-[20px] font-bold text-[#053151] leading-[1.3] max-w-[900px] mb-6">
             Every industry has its own financial realities.
           </h2>
-          <p className="text-[16px] md:text-[18px] lg:text-[20px] text-[#667785] font-normal leading-[1.65] lg:leading-[1.7] max-w-[900px]">
+          <p className="text-[15px] text-[#667785] font-normal leading-[1.65] max-w-[900px]">
             Businesses operate in different environments, with distinct operational models, regulatory requirements and financial considerations. Our professional experience spans a range of sectors.
           </p>
         </div>

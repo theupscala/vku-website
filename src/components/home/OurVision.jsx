@@ -14,7 +14,7 @@ const OurVision = () => {
             <h3 className="text-[30px] lg:text-[22px] font-bold text-[#175888] mb-4">
               Our Vision
             </h3>
-            <p className="text-[09px] md:text-[26px] lg:text-[25px] font-medium text-[#172B3A] leading-[1.45] max-w-[800px]">
+            <p className="text-[15px] font-medium text-[#172B3A] leading-[1.65] max-w-[800px]">
               To build a forward-looking professional services practice that combines trust, expertise and financial clarity to support businesses and institutions through their evolving requirements.
             </p>
           </div>

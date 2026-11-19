@@ -27,7 +27,7 @@ const AboutPreview = () => {
               title="a journey built on trust. a future shaped by possibility."
 
             />
-            <div className="space-y-5 text-vku-text-secondary text-[17px] leading-relaxed">
+            <div className="space-y-5 text-vku-text-secondary text-[15px] leading-relaxed">
               <p>
                 Established in 1986, V. K. Umbarkar & Co. has developed a professional practice serving businesses, institutions and banking organisations through audit, taxation, finance and advisory services.
               </p>

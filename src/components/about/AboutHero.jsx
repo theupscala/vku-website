@@ -24,7 +24,7 @@ const AboutHero = ({ data }) => {
         </h1>
 
         {/* Supporting Description */}
-        <p className="text-[17px] md:text-[18px] lg:text-[22px] text-[#667785] font-normal leading-[1.6] md:leading-[1.65] lg:leading-[1.7] max-w-[1100px] animate-fade-in-up mb-12" style={{ animationDelay: '300ms' }}>
+        <p className="text-[15px] text-[#667785] font-normal leading-[1.65] max-w-[1100px] animate-fade-in-up mb-12" style={{ animationDelay: '300ms' }}>
           {data.description}
         </p>
 

@@ -20,7 +20,7 @@ const SpecializedServices = () => {
             <h2 className="text-[20px] font-bold text-gray-800 leading-tight mb-6">
               Solutions built around your precise needs.
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-8">
+            <p className="text-[15px] text-gray-600 leading-relaxed mb-8">
               We understand that standard frameworks don't fit every challenge. Our specialized advisory teams craft bespoke strategies tailored to your unique operational context, industry vertical, and growth ambitions.
             </p>
           </div>

@@ -19,7 +19,7 @@ const BusinessHours = () => {
             <h2 className="text-[20px] font-bold text-gray-800 leading-tight mb-6">
               Standard Operating Hours
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-8">
+            <p className="text-[15px] text-gray-600 leading-relaxed mb-8">
               Our global advisory teams operate across multiple time zones. For urgent inquiries outside these standard hours, existing clients can use their dedicated support lines.
             </p>
             <div className="flex items-center text-vku-primary font-bold">

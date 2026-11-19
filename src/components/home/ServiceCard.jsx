@@ -20,7 +20,7 @@ const ServiceCard = ({ service, colorClass }) => {
         {service.title}
       </h3>
       
-      <p className="text-[13px] text-gray-500 mb-8 flex-1 leading-relaxed">
+      <p className="text-[15px] text-gray-500 mb-8 flex-1 leading-relaxed">
         {service.description}
       </p>
       

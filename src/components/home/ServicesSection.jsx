@@ -33,7 +33,7 @@ const ServicesSection = () => {
             title="Our Services"
             align="center"
           />
-          <p className="max-w-3xl mx-auto text-vku-text-secondary mt-2 text-lg leading-relaxed">
+          <p className="max-w-3xl mx-auto text-vku-text-secondary mt-2 text-[15px] leading-relaxed">
             Expertise that supports every stage of your business. At V. K. Umbarkar & Co., we bring together professional services designed to support compliance, financial visibility, operational controls and business decision-making.
           </p>
         </div>

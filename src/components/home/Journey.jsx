@@ -115,7 +115,7 @@ const Journey = () => {
           <h3 className="text-[20px] font-bold text-gray-800 mb-3 transition-colors duration-200">
             {timelineData[activeIndex].title}
           </h3>
-          <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">
+          <p className="text-gray-600 text-[15px] leading-relaxed max-w-2xl mx-auto">
             {timelineData[activeIndex].description}
           </p>
         </div>
