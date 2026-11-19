@@ -34,7 +34,7 @@ const Journey = () => {
     <div className="py-24 bg-white overflow-hidden">
       <Container>
         <div className="text-center mb-20">
-          <h2 className="text-4xl font-bold text-[#59595b]">Our Story</h2>
+          <h2 className="text-[27px] font-bold text-[#59595b]">Our Story</h2>
         </div>
 
         <div

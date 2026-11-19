@@ -21,8 +21,8 @@ const AboutPreview = () => {
             <div className="absolute -top-6 -right-6 w-32 h-32 bg-vku-green/20 rounded-full blur-2xl z-0"></div>
           </div>
 
-          <div >
-            <h4 className="text-[16px] md:text-[17px] font-semibold text-vku-orange mb-5 text-center">About  V. K. Umbarkar & Co.</h4>
+          <div>
+            <h2 className="text-[27px] font-bold text-vku-orange mb-5 text-center">About V. K. Umbarkar & Co.</h2>
             <SectionHeading
               title="a journey built on trust. a future shaped by possibility."
 

@@ -23,7 +23,11 @@
   }
   
   h1 { @apply text-4xl leading-tight; }
-  h2 { @apply text-2xl leading-snug; }
+  h2 {
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.25;
+  }
   h3 { @apply text-xl leading-snug; }
   p { @apply text-base text-vku-text-primary; }
   

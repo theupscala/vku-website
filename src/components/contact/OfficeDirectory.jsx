@@ -37,7 +37,7 @@ const OfficeDirectory = () => {
           <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-[text-[#053151]] uppercase mb-5">
             OUR LOCATIONS
           </h4>
-          <h2 className="text-[34px] md:text-[42px] lg:text-[48px] font-bold text-[#175888] leading-[1.15] mb-6">
+          <h2 className="text-[27px] font-bold text-[#175888] leading-[1.25] mb-6">
             Professional support across locations.
           </h2>
           <p className="text-[16px] md:text-[18px] text-[#667785] leading-[1.7] max-w-[800px]">

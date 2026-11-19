@@ -70,7 +70,7 @@ const LeadershipPartners = () => {
           <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-5">
             PARTNERS & PEOPLE
           </h4>
-          <h2 className="text-[34px] md:text-[36px] lg:text-[34px] font-bold text-vku-primary leading-[1.15] mb-6">
+          <h2 className="text-[27px] font-bold text-vku-primary leading-[1.2] mb-6">
             Meet the professionals behind VKU.
           </h2>
           <p className="text-[16px] md:text-[18px] text-[#667785] leading-[1.7] max-w-[800px]">

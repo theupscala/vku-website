@@ -17,7 +17,7 @@ const JoinUs = () => {
       <section className="py-20 bg-white border-t border-gray-100">
         <Container className="max-w-4xl">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-vku-primary mb-4">
+            <h2 className="text-[27px] font-bold text-vku-primary mb-4">
               Shape the Future of Finance With Us
             </h2>
             <div className="w-16 h-1 bg-vku-orange mx-auto mb-6"></div>

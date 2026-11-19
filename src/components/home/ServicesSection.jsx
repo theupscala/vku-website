@@ -30,12 +30,11 @@ const ServicesSection = () => {
       <Container className="max-w-[1400px]">
         <div className={`text-center mb-16 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <SectionHeading
-            title="Expertise that supports every stage of your business."
-            subtitle="OUR SERVICES"
+            title="Our Services"
             align="center"
           />
-          <p className="max-w-3xl mx-auto text-vku-text-secondary mt-6 text-lg leading-relaxed">
-            At V. K. Umbarkar & Co., we bring together professional services designed to support compliance, financial visibility, operational controls and business decision-making.
+          <p className="max-w-3xl mx-auto text-vku-text-secondary mt-2 text-lg leading-relaxed">
+            Expertise that supports every stage of your business. At V. K. Umbarkar & Co., we bring together professional services designed to support compliance, financial visibility, operational controls and business decision-making.
           </p>
         </div>
 
