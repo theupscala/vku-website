@@ -1,4 +1,4 @@
-﻿import React from 'react';
+import React from 'react';
 import Hero from '../components/home/Hero';
 import Journey from '../components/home/Journey';
 import ServicesSection from '../components/home/ServicesSection';
