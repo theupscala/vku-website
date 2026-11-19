@@ -20,7 +20,7 @@ const VisionSection = () => {
             <span className="text-sm font-bold tracking-widest text-[#053151] uppercase block mb-3">
               Our Vision
             </span>
-            <h3 className="text-2xl md:text-3xl font-extralight text-[#0A192F] leading-snug">
+            <h3 className="text-[20px] font-bold text-[#0A192F] leading-snug">
               To build a forward-looking professional services practice that combines trust, expertise and financial clarity to support businesses and institutions through their evolving requirements.
             </h3>
           </div>

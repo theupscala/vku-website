@@ -15,7 +15,7 @@ const CompanyGenesis = ({ data }) => {
               {data.eyebrow}
             </h4>
             
-            <h2 className="text-[27px] font-bold text-vku-primary leading-[1.25] mb-8">
+            <h2 className="text-[20px] font-bold text-vku-primary leading-[1.3] mb-8">
               <span className="block">{heading1}</span>
               <span className="block">{heading2}</span>
             </h2>

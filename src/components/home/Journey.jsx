@@ -34,7 +34,7 @@ const Journey = () => {
     <div className="py-24 bg-white overflow-hidden">
       <Container>
         <div className="text-center mb-20">
-          <h2 className="text-[27px] font-bold text-[#59595b]">Our Story</h2>
+          <h2 className="text-[20px] font-bold text-[#59595b]">Our Story</h2>
         </div>
 
         <div
@@ -112,7 +112,7 @@ const Journey = () => {
           <div className="inline-block px-3 py-1 mb-3 rounded-full text-xs font-semibold uppercase tracking-wider bg-white shadow-xs border border-gray-200/80">
             <span className={activeTheme.text}>{timelineData[activeIndex].year}</span>
           </div>
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-3 transition-colors duration-200">
+          <h3 className="text-[20px] font-bold text-gray-800 mb-3 transition-colors duration-200">
             {timelineData[activeIndex].title}
           </h3>
           <p className="text-gray-600 text-base md:text-lg leading-relaxed max-w-2xl mx-auto">

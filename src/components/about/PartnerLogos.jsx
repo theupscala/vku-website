@@ -6,7 +6,7 @@ const PartnerLogos = ({ partners }) => {
     <div className="py-24 bg-white border-t border-gray-200">
       <Container className="max-w-[1200px]">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold text-gray-700">
+          <h2 className="text-[20px] font-bold text-gray-700">
             Our Partners
           </h2>
         </div>

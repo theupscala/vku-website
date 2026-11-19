@@ -33,7 +33,7 @@ const OurValues = ({ data = defaultValuesData, title = "" }) => {
   return (
     <div className="py-24 bg-white border-t border-gray-200">
       <Container className="max-w-[1200px]">
-        {title && <h2 className="text-3xl font-bold text-gray-700 mb-16 text-center md:text-left">{title}</h2>}
+        {title && <h2 className="text-[20px] font-bold text-gray-700 mb-16 text-center md:text-left">{title}</h2>}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-16">
           {data.map((item, index) => {
             const Icon = item.icon;

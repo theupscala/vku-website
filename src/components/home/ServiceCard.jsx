@@ -16,7 +16,7 @@ const ServiceCard = ({ service, colorClass }) => {
         <Icon className="w-12 h-12 stroke-[1.5]" />
       </div>
       
-      <h3 className="text-[17px] font-bold text-gray-800 mb-4 leading-snug">
+      <h3 className="text-[20px] font-bold text-gray-800 mb-4 leading-snug">
         {service.title}
       </h3>
       

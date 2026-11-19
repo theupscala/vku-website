@@ -17,7 +17,7 @@ const SpecializedServices = () => {
             <h4 className="text-sm font-bold tracking-[0.2em] text-vku-orange uppercase mb-4">
               Tailor-Made Solutions
             </h4>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight mb-6">
+            <h2 className="text-[20px] font-bold text-gray-800 leading-tight mb-6">
               Solutions built around your precise needs.
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">

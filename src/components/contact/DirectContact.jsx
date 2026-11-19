@@ -14,7 +14,7 @@ const DirectContact = () => {
             <h4 className="text-[13px] font-bold tracking-[0.16em] text-[#053151] uppercase mb-4">
               CONNECT WITH VKU
             </h4>
-            <h2 className="text-[27px] font-bold text-[#175888] leading-[1.25] mb-5">
+            <h2 className="text-[20px] font-bold text-[#175888] leading-[1.3] mb-5">
               Tell us about your requirements.
             </h2>
             <p className="text-[16px] text-[#667785] leading-[1.7] mb-8">

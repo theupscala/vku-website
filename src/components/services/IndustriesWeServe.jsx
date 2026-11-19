@@ -14,7 +14,7 @@ const IndustriesWeServe = () => {
           <h4 className="text-[14px] lg:text-[15px] font-bold tracking-[0.18em] text-[text-[#053151]] uppercase mb-4 lg:mb-5">
             INDUSTRIES WE SERVE
           </h4>
-          <h2 className="text-[27px] font-bold text-[#053151] leading-[1.25] max-w-[900px] mb-6">
+          <h2 className="text-[20px] font-bold text-[#053151] leading-[1.3] max-w-[900px] mb-6">
             Every industry has its own financial realities.
           </h2>
           <p className="text-[16px] md:text-[18px] lg:text-[20px] text-[#667785] font-normal leading-[1.65] lg:leading-[1.7] max-w-[900px]">

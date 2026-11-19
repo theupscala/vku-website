@@ -16,7 +16,7 @@ const BusinessHours = () => {
           
           {/* Left Text */}
           <div className="w-full lg:w-5/12 lg:sticky lg:top-32">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 leading-tight mb-6">
+            <h2 className="text-[20px] font-bold text-gray-800 leading-tight mb-6">
               Standard Operating Hours
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed mb-8">
