@@ -22,10 +22,10 @@ const AboutPreview = () => {
           </div>
 
           <div>
-            <h2 className="text-[20px] font-bold text-vku-orange mb-5 text-center">About V. K. Umbarkar & Co.</h2>
+            <h2 className="text-[20px] font-bold text-vku-orange mb-3 text-left">About V. K. Umbarkar & Co.</h2>
             <SectionHeading
               title="a journey built on trust. a future shaped by possibility."
-
+              align="left"
             />
             <div className="space-y-5 text-vku-text-secondary text-[15px] leading-relaxed">
               <p>

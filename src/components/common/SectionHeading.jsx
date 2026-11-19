@@ -1,8 +1,11 @@
 import React from 'react';
 
 const SectionHeading = ({ title, subtitle, align = 'center' }) => {
+  const isLeft = align === 'left';
+  const isRight = align === 'right';
+
   return (
-    <div className={`text-${align} mb-8`}>
+    <div className={`${isLeft ? 'text-left' : isRight ? 'text-right' : 'text-center'} mb-8`}>
       {/* Orange color changed to Corporate Blue */}
       {subtitle && (
         <span className="text-sm font-bold tracking-widest text-[#0D3B5C] uppercase block mb-2">
@@ -18,7 +21,7 @@ const SectionHeading = ({ title, subtitle, align = 'center' }) => {
       )}
 
       {/* Dark Navy Underline Bar */}
-      <div className="w-16 h-1 bg-[#0D3B5C] mx-auto rounded-full mt-3"></div>
+      <div className={`w-16 h-1 bg-[#0D3B5C] ${isLeft ? 'mr-auto' : isRight ? 'ml-auto' : 'mx-auto'} rounded-full mt-3`}></div>
     </div>
   );
 };
