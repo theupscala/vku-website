@@ -24,7 +24,7 @@ const AboutPreview = () => {
           <div >
             <h4 className="text-[16px] md:text-[17px] font-semibold text-vku-orange mb-5 text-center">ABOUT  V. K. Umbarkar & Co.</h4>
             <SectionHeading
-              title="A journey built on trust. A future shaped by possibility."
+              title="a journey built on trust. afuture shaped by possibility."
 
             />
             <div className="space-y-5 text-vku-text-secondary text-[17px] leading-relaxed">
