@@ -64,8 +64,12 @@ const Hero = () => {
           </div>
 
           <div className="absolute inset-0 flex items-center justify-center px-12 md:px-24">
-            <h1 className={`text-4xl md:text-6xl lg:text-5xl font-light text-white text-center tracking-tight leading-tight max-w-5xl whitespace-pre-line transform transition-all duration-1000 ${index === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-              }`}>
+            <h1
+              className={`text-[36px] sm:text-[44px] md:text-[53px] font-bold text-white text-center tracking-tight leading-[1.2] max-w-5xl whitespace-pre-line transform transition-all duration-1000 ${
+                index === currentSlide ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
+              }`}
+              style={{ fontFamily: "'Lato', sans-serif" }}
+            >
               {slide.text}
             </h1>
           </div>

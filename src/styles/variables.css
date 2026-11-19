@@ -30,6 +30,7 @@
 
   /* Typography */
   --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-lato: "Lato", sans-serif;
 }
 
 @theme {
@@ -59,4 +60,5 @@
   --color-vku-info: var(--vku-info);
 
   --font-sans: var(--font-sans);
+  --font-lato: var(--font-lato);
 }
