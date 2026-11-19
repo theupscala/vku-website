@@ -10,18 +10,18 @@ const AboutHero = ({ data }) => {
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-vku-primary-light opacity-20 rounded-full blur-[120px] translate-y-1/2 -translate-x-1/2 pointer-events-none"></div>
 
       <Container className="relative z-10 flex flex-col items-center w-full">
-        {/* Eyebrow Label */}
-        <h4 className="text-[40px] md:text-[18px] font-semibold tracking-[0.18em] text-vku-orange uppercase mb-4 md:mb-6 animate-fade-in-up">
+        {/* Section Heading */}
+        <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4 md:mb-6 animate-fade-in-up">
           {data.title}
-        </h4>
+        </h2>
 
         {/* Decorative Divider */}
         <div className="w-[60px] md:w-[80px] h-[2px] md:h-[3px] bg-vku-orange mb-10 md:mb-14 lg:mb-16 animate-fade-in-up" style={{ animationDelay: '100ms' }}></div>
 
-        {/* Main Heading */}
-        <h1 className="text-[34px] sm:text-[38px] md:text-[48px] lg:text-[64px] font-extralight text-vku-primary leading-[1.15] md:leading-[1.1] lg:leading-[1.08] tracking-tight max-w-[1300px] mb-8 md:mb-10 lg:mb-12 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
+        {/* Sub Heading */}
+        <h3 className="text-[20px] font-bold text-vku-primary leading-[1.3] tracking-tight max-w-[1300px] mb-8 md:mb-10 lg:mb-12 animate-fade-in-up" style={{ animationDelay: '200ms' }}>
           "{data.quote}"
-        </h1>
+        </h3>
 
         {/* Supporting Description */}
         <p className="text-[15px] text-[#667785] font-normal leading-[1.65] max-w-[1100px] animate-fade-in-up mb-12" style={{ animationDelay: '300ms' }}>
@@ -30,7 +30,7 @@ const AboutHero = ({ data }) => {
 
         {/* Story Text (Moved from Genesis) */}
         {data.storyContent && (
-          <div className="text-left font-light space-y-6 md:space-y-8 text-[26px] md:text-[32px] lg:text-[40px] text-[#667785] leading-[1.7] md:leading-[1.8] w-full animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+          <div className="text-left font-light space-y-6 md:space-y-8 text-[15px] text-[#667785] leading-[1.7] w-full animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             {data.storyContent.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}
