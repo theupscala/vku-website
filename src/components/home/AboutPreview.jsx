@@ -36,8 +36,8 @@ const AboutPreview = () => {
               </p>
             </div>
             <div className="mt-10">
-              <Link to="/about">
-                <Button variant="secondary" size="lg">Meet VKU</Button>
+              <Link to="/contact">
+                <Button variant="secondary" size="lg">Get a Consultation</Button>
               </Link>
             </div>
           </div>
