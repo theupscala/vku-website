@@ -42,43 +42,43 @@ const ContactCTA = () => {
   };
 
   return (
-    <section className="py-20 lg:py-28 bg-[#F7FAFC]">
+    <section className="py-10 md:py-14 bg-[#F7FAFC]">
       <Container className="max-w-[1200px] mx-auto px-4 md:px-6">
-        <div className="flex flex-col lg:flex-row gap-16 lg:gap-20 items-start">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-start">
 
           {/* Left Column: Text Content */}
           <div className="w-full lg:w-[45%] flex flex-col">
-            <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-5">
+            <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-2">
               Get in Touch
             </h2>
-            <h2 className="text-[20px] font-bold text-[#175888] leading-[1.3] mb-6">
+            <h2 className="text-[20px] font-bold text-[#175888] leading-[1.3] mb-3">
               Let's talk about your business requirements.
             </h2>
             <p className="text-[15px] text-gray-500 leading-relaxed max-w-[600px]">
               Whether you are looking for audit support, tax and compliance services, business advisory or finance operations support, we invite you to connect with our team.
-              <br /><br />
+              <br className="mb-2" />
               Tell us about your requirements. We will help you understand the relevant professional service areas and next steps.
             </p>
           </div>
 
           {/* Right Column: Form Card */}
-          <div className="w-full lg:w-[55%] bg-white border border-[#DCE4E9] rounded-[12px] p-8 md:p-10 lg:p-11 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
-            <div className="mb-8">
-              <h3 className="text-[28px] lg:text-[32px] font-bold text-[#175888] mb-2">
+          <div className="w-full lg:w-[55%] bg-white border border-[#DCE4E9] rounded-[12px] p-6 md:p-8 shadow-[0_2px_10px_rgba(0,0,0,0.02)]">
+            <div className="mb-5">
+              <h3 className="text-[24px] lg:text-[28px] font-bold text-[#175888] mb-1.5">
                 Start a conversation
               </h3>
-              <p className="text-[15px] lg:text-[16px] text-[#667785]">
+              <p className="text-[14px] lg:text-[15px] text-[#667785]">
                 Share your requirements with VKU.
               </p>
             </div>
 
             {status.message && (
-              <div className="mb-6 p-4 rounded-md bg-[#52B947]/10 text-[#52B947] font-medium text-[15px]">
+              <div className="mb-5 p-3.5 rounded-md bg-[#52B947]/10 text-[#52B947] font-medium text-[15px]">
                 {status.message}
               </div>
             )}
 
-            <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-4">
               {/* Full Name */}
               <div className="flex flex-col">
                 <label htmlFor="fullName" className="text-[14px] font-semibold text-[#172B3A] mb-2">

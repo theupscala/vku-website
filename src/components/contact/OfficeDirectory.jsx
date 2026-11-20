@@ -29,15 +29,15 @@ const offices = [
 
 const OfficeDirectory = () => {
   return (
-    <section className="py-20 lg:py-24 bg-white">
+    <section className="py-10 md:py-14 bg-white">
       <Container className="max-w-[1200px] mx-auto px-4 md:px-6">
 
         {/* Section Header */}
-        <div className="mb-14 lg:mb-16">
-          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-4">
+        <div className="mb-6 md:mb-8">
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-2">
             Our Locations
           </h2>
-          <h3 className="text-[20px] font-bold text-vku-primary leading-[1.3] mb-6">
+          <h3 className="text-[20px] font-bold text-vku-primary leading-[1.3] mb-3">
             Professional support across locations.
           </h3>
           <p className="text-[15px] text-gray-500 leading-relaxed max-w-[800px]">
@@ -46,14 +46,14 @@ const OfficeDirectory = () => {
         </div>
 
         {/* Office Grid - 4 Columns on Desktop */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8 mb-6 md:mb-8">
           {offices.map((office, index) => (
             <div
               key={index}
               className="group flex flex-col transition-all duration-300"
             >
               {/* Map Image */}
-              <div className="mb-4">
+              <div className="mb-2 md:mb-3">
                 <img
                   src={`/images/map-${office.city.toLowerCase()}.png`}
                   alt={`${office.city} Office Map`}
@@ -62,7 +62,7 @@ const OfficeDirectory = () => {
               </div>
 
               {/* Location Name & Type */}
-              <div className="mb-4">
+              <div className="mb-2 md:mb-3">
                 <h3 className="text-[28px] lg:text-[32px] font-bold text-[#172B3A] mb-1.5 transition-colors duration-300 group-hover:text-[#175888]">
                   {office.city}
                 </h3>
@@ -72,7 +72,7 @@ const OfficeDirectory = () => {
               </div>
 
               {/* In-Charge */}
-              <div className="mb-6">
+              <div className="mb-3 md:mb-4">
                 <p className="text-[16px] text-[#172B3A]">
                   In-charge: <span className="font-semibold">{office.inCharge}</span>
                 </p>
@@ -94,7 +94,7 @@ const OfficeDirectory = () => {
         </div>
 
         {/* Bottom CTA Row (Optional, kept for consistency if needed, but the prompt says 'Update ONLY the Our Locations section') */}
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-end gap-6 sm:gap-10 border-t border-[#DCE4E9] pt-8">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-end gap-6 sm:gap-10 border-t border-[#DCE4E9] pt-5">
           <Link
             to="/contact"
             className="group inline-flex items-center text-[16px] lg:text-[18px] font-semibold text-[#175888] transition-colors duration-300 hover:text-[#F47920]"
