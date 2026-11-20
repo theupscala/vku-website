@@ -11,9 +11,9 @@ const IndustriesWeServe = () => {
 
         {/* Header Section */}
         <div className="mb-14 lg:mb-16 text-left">
-          <h4 className="text-[14px] lg:text-[15px] font-bold tracking-[0.18em] text-[text-[#053151]] uppercase mb-4 lg:mb-5">
-            INDUSTRIES WE SERVE
-          </h4>
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-4 lg:mb-5">
+            Industries We Serve
+          </h2>
           <h2 className="text-[20px] font-bold text-[#053151] leading-[1.3] max-w-[900px] mb-6">
             Every industry has its own financial realities.
           </h2>

@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Brand Col */}
           <div className="space-y-5">
-            <div className="text-sm font-bold tracking-[0.12em] uppercase text-white/60 mb-2">
+            <div className="text-sm font-bold tracking-[0.12em] text-white/60 mb-2">
               V. K. Umbarkar & Co.
             </div>
             <p className="text-xl font-semibold text-white leading-tight">
@@ -28,7 +28,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-base font-semibold text-vku-white mb-6 uppercase tracking-wider">Quick Links</h4>
+            <h4 className="text-base font-semibold text-vku-white mb-6 tracking-wider">Quick Links</h4>
             <ul className="space-y-3">
               {navigationLinks.map((link) => (
                 <li key={link.name}>
@@ -45,7 +45,7 @@ const Footer = () => {
 
           {/* Services Links */}
           <div>
-            <h4 className="text-base font-semibold text-vku-white mb-6 uppercase tracking-wider">Services</h4>
+            <h4 className="text-base font-semibold text-vku-white mb-6 tracking-wider">Services</h4>
             <ul className="space-y-3">
               <li><Link to="/services" className="text-vku-text-muted hover:text-vku-orange transition-colors text-sm">Assurance</Link></li>
               <li><Link to="/services" className="text-vku-text-muted hover:text-vku-orange transition-colors text-sm">Tax & Regulatory Compliance</Link></li>
@@ -56,7 +56,7 @@ const Footer = () => {
 
           {/* Locations */}
           <div>
-            <h4 className="text-base font-semibold text-vku-white mb-6 uppercase tracking-wider">Our Offices</h4>
+            <h4 className="text-base font-semibold text-vku-white mb-6 tracking-wider">Our Offices</h4>
             <ul className="space-y-4">
               {[
                 { city: "Nagpur", type: "Head Office" },

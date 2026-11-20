@@ -11,7 +11,7 @@ import imgAdvisory from '../assets/images/services/strategic-consulting.jpg';
 import imgController from '../assets/images/services/financial-advisory.jpg';
 
 export const servicesHero = {
-  title: "OUR SERVICES",
+  title: "Our Services",
   heading: "Expertise that supports every stage of your business.",
   description: "At V. K. Umbarkar & Co., we bring together professional services designed to support compliance, financial visibility, operational controls and business decision-making."
 };

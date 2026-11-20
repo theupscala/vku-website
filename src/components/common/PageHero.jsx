@@ -12,7 +12,7 @@ const PageHero = ({ eyebrow, title, description, isQuote = false }) => {
       <Container className="relative z-10 flex flex-col items-center w-full">
         {/* Section Heading */}
         {eyebrow && (
-          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase animate-fade-in-up">
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange animate-fade-in-up">
             {eyebrow}
           </h2>
         )}

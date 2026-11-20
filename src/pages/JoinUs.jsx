@@ -9,7 +9,7 @@ const JoinUs = () => {
   return (
     <div className="bg-vku-background min-h-screen">
       <PageHero
-        eyebrow="CAREERS AT VKU"
+        eyebrow="Careers at VKU"
         title="Join Our Growing Practice"
         description="At V. K. Umbarkar & Co., we cultivate a collaborative environment where talent meets opportunity. Explore your path in audit, taxation, and financial advisory."
       />

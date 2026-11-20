@@ -8,7 +8,7 @@ const SectionHeading = ({ title, subtitle, align = 'center' }) => {
     <div className={`${isLeft ? 'text-left' : isRight ? 'text-right' : 'text-center'} mb-8`}>
       {/* Orange color changed to Corporate Blue */}
       {subtitle && (
-        <span className="text-sm font-bold tracking-widest text-[#0D3B5C] uppercase block mb-2">
+        <span className="text-sm font-bold tracking-widest text-[#0D3B5C] block mb-2">
           {subtitle}
         </span>
       )}

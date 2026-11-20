@@ -17,7 +17,7 @@ const VisionSection = () => {
 
           {/* Content & Typography */}
           <div className="flex-1 text-left">
-            <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4">
+            <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-4">
               Our Vision
             </h2>
             <p className="text-[15px] text-gray-500 leading-relaxed">

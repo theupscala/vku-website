@@ -34,8 +34,8 @@ const OfficeDirectory = () => {
 
         {/* Section Header */}
         <div className="mb-14 lg:mb-16">
-          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4">
-            OUR LOCATIONS
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-4">
+            Our Locations
           </h2>
           <h3 className="text-[20px] font-bold text-vku-primary leading-[1.3] mb-6">
             Professional support across locations.

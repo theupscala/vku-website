@@ -48,9 +48,9 @@ const ContactCTA = () => {
 
           {/* Left Column: Text Content */}
           <div className="w-full lg:w-[45%] flex flex-col">
-            <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-[#053151] uppercase mb-5">
-              GET IN TOUCH
-            </h4>
+            <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-5">
+              Get in Touch
+            </h2>
             <h2 className="text-[20px] font-bold text-[#175888] leading-[1.3] mb-6">
               Let's talk about your business requirements.
             </h2>

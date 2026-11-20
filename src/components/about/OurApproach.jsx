@@ -37,9 +37,9 @@ const OurApproach = () => {
       <Container className="max-w-[800px] mx-auto w-full px-4 md:px-6">
         
         <div className="mb-6 md:mb-8 text-left">
-          <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-vku-orange uppercase">
-            OUR APPROACH
-          </h4>
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange">
+            Our Approach
+          </h2>
         </div>
 
         <div className="flex flex-col space-y-3 md:space-y-4">

@@ -11,7 +11,7 @@ const CompanyGenesis = ({ data }) => {
           
           {/* Left Column: Heading and Image */}
           <div className="flex flex-col animate-fade-in-up" style={{ animationDelay: '100ms' }}>
-            <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-6 lg:mb-8">
+            <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-vku-orange mb-6 lg:mb-8">
               {data.eyebrow}
             </h4>
             

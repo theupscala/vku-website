@@ -67,8 +67,8 @@ const LeadershipPartners = () => {
 
         {/* Section Header */}
         <div className="mb-10 md:mb-12">
-          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4">
-            PARTNERS & PEOPLE
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-4">
+            Partners & People
           </h2>
           <h3 className="text-[20px] font-bold text-vku-primary leading-[1.3] mb-6">
             Meet the professionals behind VKU.
@@ -85,8 +85,8 @@ const LeadershipPartners = () => {
 
         {/* Managing Partner Section */}
         <div className="mb-10 md:mb-12">
-          <h2 className="text-[20px] font-bold tracking-[0.10em] text-vku-orange uppercase mb-6 md:mb-8">
-            MANAGING PARTNER
+          <h2 className="text-[20px] font-bold tracking-[0.10em] text-vku-orange mb-6 md:mb-8">
+            Managing Partner
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -118,9 +118,9 @@ const LeadershipPartners = () => {
 
         {/* Partners Grid Section */}
         <div>
-          <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4">
-            OUR PARTNERS
-          </h4>
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-4">
+            Our Partners
+          </h2>
           <h3 className="text-[28px] lg:text-[36px] font-bold text-[#175888] mb-10 lg:mb-12">
             Partners
           </h3>

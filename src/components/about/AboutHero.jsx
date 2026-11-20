@@ -11,7 +11,7 @@ const AboutHero = ({ data }) => {
 
       <Container className="relative z-10 flex flex-col items-center w-full">
         {/* Section Heading */}
-        <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-3 animate-fade-in-up">
+        <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-3 animate-fade-in-up">
           {data.title}
         </h2>
 

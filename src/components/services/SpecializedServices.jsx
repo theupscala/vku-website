@@ -14,7 +14,7 @@ const SpecializedServices = () => {
           
           {/* Left: Heading and Intro */}
           <div className="lg:col-span-4 lg:sticky lg:top-32">
-            <h4 className="text-sm font-bold tracking-[0.2em] text-vku-orange uppercase mb-4">
+            <h4 className="text-sm font-bold tracking-[0.2em] text-vku-orange mb-4">
               Tailor-Made Solutions
             </h4>
             <h2 className="text-[20px] font-bold text-gray-800 leading-tight mb-6">
