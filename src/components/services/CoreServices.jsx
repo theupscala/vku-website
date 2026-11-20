@@ -18,7 +18,6 @@ const CoreServices = () => {
         <div className="text-center mb-16">
           <SectionHeading
             title="Core Services"
-            subtitle="What We Do Best"
             align="center"
           />
         </div>
