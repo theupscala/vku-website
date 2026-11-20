@@ -32,9 +32,9 @@ const Journey = () => {
   const activeTheme = timelineColors[activeIndex % timelineColors.length];
 
   return (
-    <div className="py-24 bg-white overflow-hidden">
+    <div className="pt-10 pb-12 md:pt-12 md:pb-16 bg-white overflow-hidden">
       <Container>
-        <div className="text-center mb-16">
+        <div className="text-center mb-10 md:mb-12">
           <SectionHeading
             title="Our Story"
             align="center"
@@ -42,7 +42,7 @@ const Journey = () => {
         </div>
 
         <div
-          className="relative max-w-6xl mx-auto mb-16 md:mb-32 px-4 mt-8 md:mt-16 flex justify-center md:block"
+          className="relative max-w-6xl mx-auto mb-10 md:mb-16 px-4 mt-6 md:mt-10 flex justify-center md:block"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >

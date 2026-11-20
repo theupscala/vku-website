@@ -45,7 +45,7 @@ const partners = [
 
 const LeadershipPartners = () => {
   return (
-    <section className="py-20 lg:py-24 bg-white">
+    <section className="py-10 md:py-14 bg-white">
       <style>
         {`
           @keyframes fadeUpPartner {
@@ -66,7 +66,7 @@ const LeadershipPartners = () => {
       <Container className="max-w-[1200px] mx-auto px-4 md:px-6">
 
         {/* Section Header */}
-        <div className="mb-16">
+        <div className="mb-10 md:mb-12">
           <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4">
             PARTNERS & PEOPLE
           </h2>
@@ -81,11 +81,11 @@ const LeadershipPartners = () => {
         </div>
 
         {/* Divider */}
-        <div className="w-full h-[1px] bg-[#DCE4E9] mb-16 lg:mb-20"></div>
+        <div className="w-full h-[1px] bg-[#DCE4E9] mb-10 md:mb-12"></div>
 
         {/* Managing Partner Section */}
-        <div className="mb-16 lg:mb-20">
-          <h2 className="text-[20px] font-bold tracking-[0.10em] text-vku-orange uppercase mb-10 lg:mb-12">
+        <div className="mb-10 md:mb-12">
+          <h2 className="text-[20px] font-bold tracking-[0.10em] text-vku-orange uppercase mb-6 md:mb-8">
             MANAGING PARTNER
           </h2>
 
@@ -114,7 +114,7 @@ const LeadershipPartners = () => {
         </div>
 
         {/* Divider */}
-        <div className="w-full h-[1px] bg-[#DCE4E9] mb-16 lg:mb-20"></div>
+        <div className="w-full h-[1px] bg-[#DCE4E9] mb-10 md:mb-12"></div>
 
         {/* Partners Grid Section */}
         <div>

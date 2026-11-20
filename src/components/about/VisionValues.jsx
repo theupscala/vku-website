@@ -2,7 +2,7 @@ import React from 'react';
 
 const VisionSection = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 md:py-14 bg-white">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
         <div className="flex flex-col lg:flex-row items-center gap-12 p-8 md:p-14 rounded-3xl bg-slate-50 border border-slate-200/80 shadow-sm">
 

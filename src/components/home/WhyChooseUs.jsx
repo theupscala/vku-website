@@ -74,9 +74,9 @@ const WhyChooseUs = ({
   }, []);
 
   return (
-    <div className="py-24 border-t border-black-100 bg-gray-100 " ref={sectionRef}>
+    <div className="py-12 md:py-16 border-t border-black-100 bg-gray-100 " ref={sectionRef}>
       <Container className="max-w-[1400px]">
-        <div className={`text-center mb-16 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+        <div className={`text-center mb-10 md:mb-12 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <SectionHeading
             title={title}
             subtitle={eyebrow}

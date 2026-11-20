@@ -33,10 +33,10 @@ const OurApproach = () => {
   };
 
   return (
-    <div className="py-20 bg-vku-background">
+    <div className="py-12 md:py-16 bg-vku-background">
       <Container className="max-w-[800px] mx-auto w-full px-4 md:px-6">
         
-        <div className="mb-10 text-left">
+        <div className="mb-6 md:mb-8 text-left">
           <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-vku-orange uppercase">
             OUR APPROACH
           </h4>
