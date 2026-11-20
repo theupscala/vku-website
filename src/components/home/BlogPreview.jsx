@@ -34,7 +34,7 @@ const BlogPreview = () => {
               </div>
               <div className="p-6 flex flex-col flex-1">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="text-xs font-bold uppercase tracking-wider text-vku-primary bg-vku-primary-light px-2 py-1 rounded">
+                  <span className="text-xs font-bold tracking-wider text-vku-primary bg-vku-primary-light px-2 py-1 rounded">
                     {post.category}
                   </span>
                   <span className="text-sm text-vku-text-muted">{post.date}</span>

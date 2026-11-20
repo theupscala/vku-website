@@ -46,7 +46,7 @@ const OfficeCard = ({ office, isSelected, onClick }) => {
         </div>
       </div>
 
-      <div className={`mt-auto font-bold text-sm uppercase tracking-wider flex items-center transition-colors duration-300 ${
+      <div className={`mt-auto font-bold text-sm tracking-wider flex items-center transition-colors duration-300 ${
         isSelected ? 'text-vku-primary' : 'text-vku-text-muted group-hover:text-vku-primary'
       }`}>
         <span>View on Map</span>

@@ -13,7 +13,7 @@ const DesktopNav = () => {
           <Link
             key={item.name}
             to={item.href}
-            className={`text-sm font-semibold uppercase tracking-wider transition-colors duration-200 ${
+            className={`text-sm font-semibold tracking-wider transition-colors duration-200 ${
               isActive
                 ? 'text-vku-white'
                 : 'text-vku-text-muted hover:text-vku-white'

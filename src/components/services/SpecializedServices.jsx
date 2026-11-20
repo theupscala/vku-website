@@ -44,7 +44,7 @@ const SpecializedServices = () => {
                     <p className="text-[15px] text-gray-500 leading-relaxed flex-1">
                       {service.description}
                     </p>
-                    <div className="mt-6 flex items-center text-vku-orange font-bold text-sm uppercase tracking-wider group-hover:text-vku-primary transition-colors duration-300">
+                    <div className="mt-6 flex items-center text-vku-orange font-bold text-sm tracking-wider group-hover:text-vku-primary transition-colors duration-300">
                       <span>Explore</span>
                       <span className="ml-2 transform group-hover:translate-x-1 transition-transform duration-300">→</span>
                     </div>

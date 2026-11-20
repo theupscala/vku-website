@@ -113,7 +113,7 @@ const Journey = () => {
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
-          <div className="inline-block px-3 py-1 mb-3 rounded-full text-xs font-semibold uppercase tracking-wider bg-white shadow-xs border border-gray-200/80">
+          <div className="inline-block px-3 py-1 mb-3 rounded-full text-xs font-semibold tracking-wider bg-white shadow-xs border border-gray-200/80">
             <span className={activeTheme.text}>{timelineData[activeIndex].year}</span>
           </div>
           <h3 className="text-[20px] font-bold text-gray-800 mb-3 transition-colors duration-200">

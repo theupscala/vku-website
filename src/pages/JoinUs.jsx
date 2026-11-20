@@ -61,7 +61,7 @@ const JoinUs = () => {
 
           <div className="bg-vku-primary-dark text-white rounded-2xl p-10 md:p-12 text-center shadow-lg">
             <Mail className="w-10 h-10 text-vku-orange mx-auto mb-4" />
-            <h3 className="text-2xl font-bold mb-3">Want to work with us?</h3>
+            <h3 className="text-2xl font-bold mb-3">Want to Work with Us?</h3>
             <p className="text-white/80 max-w-xl mx-auto mb-8 text-base leading-relaxed">
               We are always eager to meet driven professionals. Send us your resume or get in touch with our team directly.
             </p>

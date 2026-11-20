@@ -46,7 +46,7 @@ const BusinessHours = () => {
                     >
                       <span className={`text-lg font-bold ${isToday ? 'text-white' : 'text-gray-800'}`}>
                         {schedule.day}
-                        {isToday && <span className="ml-3 text-xs uppercase tracking-wider font-bold bg-white/20 px-2 py-1 rounded">Today</span>}
+                        {isToday && <span className="ml-3 text-xs tracking-wider font-bold bg-white/20 px-2 py-1 rounded">Today</span>}
                       </span>
                       <span className={`text-lg font-medium ${isToday ? 'text-blue-50' : 'text-gray-600'}`}>
                         {schedule.hours}

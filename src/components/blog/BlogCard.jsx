@@ -14,7 +14,7 @@ const BlogCard = ({ post }) => {
         />
         {/* Category Badge overlaying the image */}
         <div className="absolute top-4 left-4">
-          <span className="bg-white/95 backdrop-blur text-vku-primary text-xs font-bold uppercase tracking-wider px-3 py-1.5 rounded-full shadow-sm">
+          <span className="bg-white/95 backdrop-blur text-vku-primary text-xs font-bold tracking-wider px-3 py-1.5 rounded-full shadow-sm">
             {post.category}
           </span>
         </div>
@@ -37,7 +37,7 @@ const BlogCard = ({ post }) => {
         </p>
         
         {/* Read More Link */}
-        <div className="mt-auto pt-4 border-t border-vku-border flex items-center text-vku-primary font-bold text-sm uppercase tracking-wider">
+        <div className="mt-auto pt-4 border-t border-vku-border flex items-center text-vku-primary font-bold text-sm tracking-wider">
           <span>Read More</span>
           <span className="ml-2 transform group-hover:translate-x-2 transition-transform duration-300">→</span>
         </div>

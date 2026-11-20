@@ -38,7 +38,7 @@ const BlogDetails = () => {
               Back to all insights
             </Link>
             
-            <div className="flex items-center gap-4 mb-6 text-sm font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-4 mb-6 text-sm font-bold tracking-wider">
               <span className="text-vku-primary bg-vku-primary-light/30 px-3 py-1 rounded-full">
                 {post.category}
               </span>

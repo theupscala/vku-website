@@ -31,7 +31,7 @@ const FeaturedBlog = ({ post }) => {
 
           {/* Content */}
           <div className="w-full lg:w-1/2 p-8 lg:p-12 lg:pl-0 flex flex-col justify-center">
-            <div className="flex items-center gap-4 mb-6 text-sm font-bold uppercase tracking-wider">
+            <div className="flex items-center gap-4 mb-6 text-sm font-bold tracking-wider">
               <span className="text-vku-primary bg-vku-primary-light/30 px-3 py-1 rounded-full">
                 {post.category}
               </span>

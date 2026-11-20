@@ -19,7 +19,7 @@ const Highlights = () => {
               <div className="text-4xl md:text-5xl font-bold text-vku-primary mb-2">
                 {stat.value}
               </div>
-              <div className="text-sm md:text-base font-medium text-vku-text-secondary uppercase tracking-wider">
+              <div className="text-sm md:text-base font-medium text-vku-text-secondary tracking-wider">
                 {stat.label}
               </div>
             </div>
