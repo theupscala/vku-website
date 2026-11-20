@@ -64,7 +64,7 @@ const LeadershipPartners = () => {
         `}
       </style>
       <Container className="max-w-[1200px] mx-auto px-4 md:px-6">
-        
+
         {/* Section Header */}
         <div className="mb-16">
           <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4">
@@ -85,10 +85,10 @@ const LeadershipPartners = () => {
 
         {/* Managing Partner Section */}
         <div className="mb-16 lg:mb-20">
-          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-10 lg:mb-12">
+          <h2 className="text-[20px] font-bold tracking-[0.10em] text-vku-orange uppercase mb-10 lg:mb-12">
             MANAGING PARTNER
           </h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* Left: Professional Portrait */}
             <div className="w-full aspect-[4/5] bg-[#F7F9FB] border border-[#DCE4E9] rounded-[12px] flex flex-col items-center justify-center text-[#667785] overflow-hidden animate-partner-section" style={{ animationDelay: '100ms' }}>
@@ -127,7 +127,7 @@ const LeadershipPartners = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-7 mb-12">
             {partners.map((partner, index) => (
-              <div 
+              <div
                 key={index}
                 className="bg-white border border-[#DCE4E9] rounded-[10px] p-6 lg:p-7 transition-all duration-300 hover:-translate-y-1 hover:border-[#175888]/30 hover:shadow-sm flex flex-col animate-partner-section"
                 style={{ animationDelay: `${200 + index * 100}ms` }}
@@ -149,8 +149,8 @@ const LeadershipPartners = () => {
 
           {/* CTA Link */}
           <div className="flex justify-end">
-            <a 
-              href="#" 
+            <a
+              href="#"
               className="group inline-flex items-center text-[16px] lg:text-[18px] font-semibold text-[#175888] transition-colors duration-300 hover:text-vku-orange"
             >
               Meet our team

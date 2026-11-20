@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 
 export const aboutHero = {
-  title: "ABOUT US",
+  title: "About Us",
   quote: "From Compliance to Clarity.",
   description: "",
   storyContent: [
@@ -23,14 +23,14 @@ export const aboutHero = {
 };
 
 export const companyGenesis = {
-  eyebrow: "OUR STORY",
+  eyebrow: "Our Story",
   heading: "A journey built on trust.\nA future shaped by possibility.",
   content: [],
   image: "/images/ca_office_discussion_1789637114629.jpg"
 };
 
 export const visionData = {
-  eyebrow: "OUR VISION & VALUES",
+  eyebrow: "Our Vision and values",
   sectionHeading: "The next chapter of our professional journey.",
   sectionIntro: [
     "We believe that a professional services firm must continue to develop with the changing needs of its clients and the business environment.",
