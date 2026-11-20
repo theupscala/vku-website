@@ -30,7 +30,8 @@
   }
   p {
     font-size: 15px;
-    line-height: 1.65;
+    line-height: 1.625;
+    color: #6b7280;
   }
   
   .text-small { @apply text-sm text-vku-text-secondary; }

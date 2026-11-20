@@ -24,13 +24,13 @@ const AboutHero = ({ data }) => {
         </h3>
 
         {/* Supporting Description */}
-        <p className="text-[15px] text-[#667785] font-normal leading-[1.65] max-w-[1100px] animate-fade-in-up mb-12" style={{ animationDelay: '300ms' }}>
+        <p className="text-[15px] text-gray-500 font-normal leading-relaxed max-w-[1100px] animate-fade-in-up mb-12" style={{ animationDelay: '300ms' }}>
           {data.description}
         </p>
 
         {/* Story Text (Moved from Genesis) */}
         {data.storyContent && (
-          <div className="text-left font-light space-y-6 md:space-y-8 text-[15px] text-[#667785] leading-[1.7] w-full animate-fade-in-up" style={{ animationDelay: '400ms' }}>
+          <div className="text-left font-normal space-y-6 md:space-y-8 text-[15px] text-gray-500 leading-relaxed w-full animate-fade-in-up" style={{ animationDelay: '400ms' }}>
             {data.storyContent.map((paragraph, index) => (
               <p key={index}>{paragraph}</p>
             ))}

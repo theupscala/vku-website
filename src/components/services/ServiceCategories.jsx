@@ -58,7 +58,7 @@ const ServiceCategories = () => {
               <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-6">
                 {activeData.name}
               </h3>
-              <p className="text-[15px] text-gray-600 leading-relaxed">
+              <p className="text-[15px] text-gray-500 leading-relaxed">
                 {activeData.description}
               </p>
             </div>

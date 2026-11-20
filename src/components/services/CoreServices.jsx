@@ -72,7 +72,7 @@ const CoreServices = () => {
                 >
                   <div className="overflow-hidden">
                     <div className="px-6 md:px-7 pb-7 pt-0 pl-[76px] md:pl-[84px]">
-                      <p className="text-[14px] md:text-[15px] text-vku-text-secondary leading-relaxed mb-5">
+                      <p className="text-[15px] text-gray-500 leading-relaxed mb-5">
                         {service.detailedDescription || service.description}
                       </p>
 
@@ -80,7 +80,7 @@ const CoreServices = () => {
                         {service.capabilities.map((capability, idx) => (
                           <div key={idx} className="flex items-start">
                             <CheckCircle2 className="w-4 h-4 text-vku-green mr-2 flex-shrink-0 mt-0.5" />
-                            <span className="text-[14px] text-vku-text-secondary">{capability}</span>
+                            <span className="text-[14px] text-gray-500">{capability}</span>
                           </div>
                         ))}
                       </div>

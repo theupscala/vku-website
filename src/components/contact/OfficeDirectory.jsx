@@ -40,7 +40,7 @@ const OfficeDirectory = () => {
           <h2 className="text-[20px] font-bold text-[#175888] leading-[1.3] mb-6">
             Professional support across locations.
           </h2>
-          <p className="text-[15px] text-[#667785] leading-[1.65] max-w-[800px]">
+          <p className="text-[15px] text-gray-500 leading-relaxed max-w-[800px]">
             With offices across four locations, VKU supports clients through its professional practice in:
           </p>
         </div>

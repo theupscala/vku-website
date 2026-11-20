@@ -21,7 +21,7 @@ const JoinUs = () => {
               Shape the Future of Finance With Us
             </h2>
             <div className="w-16 h-1 bg-vku-orange mx-auto mb-6"></div>
-            <p className="text-[15px] text-vku-text-secondary leading-relaxed">
+            <p className="text-[15px] text-gray-500 leading-relaxed">
               We are expanding our teams across our offices in Nagpur, Pune, Chhindwara, and Wardha.
               Detailed openings and application portals will be published here shortly.
             </p>
@@ -33,7 +33,7 @@ const JoinUs = () => {
                 <Briefcase className="w-7 h-7" />
               </div>
               <h3 className="text-xl font-semibold text-vku-primary mb-2">Audit & Assurance</h3>
-              <p className="text-sm text-vku-text-secondary">
+              <p className="text-[15px] text-gray-500 leading-relaxed">
                 Opportunities for Article Assistants and Qualified Chartered Accountants.
               </p>
             </div>
@@ -43,7 +43,7 @@ const JoinUs = () => {
                 <Award className="w-7 h-7" />
               </div>
               <h3 className="text-xl font-semibold text-vku-primary mb-2">Direct & Indirect Tax</h3>
-              <p className="text-sm text-vku-text-secondary">
+              <p className="text-[15px] text-gray-500 leading-relaxed">
                 Roles focusing on tax planning, compliance, and corporate litigation.
               </p>
             </div>
@@ -53,7 +53,7 @@ const JoinUs = () => {
                 <Users className="w-7 h-7" />
               </div>
               <h3 className="text-xl font-semibold text-vku-primary mb-2">Advisory & Consulting</h3>
-              <p className="text-sm text-vku-text-secondary">
+              <p className="text-[15px] text-gray-500 leading-relaxed">
                 Positions in financial strategy, due diligence, and controller services.
               </p>
             </div>

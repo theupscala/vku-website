@@ -84,7 +84,7 @@ const WhyChooseUs = ({
             accent="blue"
           />
           {description && (
-            <p className="max-w-2xl mx-auto text-vku-text-secondary mt-4">
+            <p className="max-w-2xl mx-auto text-gray-500 text-[15px] leading-relaxed mt-4">
               {description}
             </p>
           )}
@@ -113,7 +113,7 @@ const WhyChooseUs = ({
                 <h3 className="text-xl font-bold text-gray-800 mb-4">
                   {reason.title}
                 </h3>
-                <p className="text-gray-500 leading-relaxed flex-grow">
+                <p className="text-[15px] text-gray-500 leading-relaxed flex-grow">
                   {reason.description}
                 </p>
               </div>

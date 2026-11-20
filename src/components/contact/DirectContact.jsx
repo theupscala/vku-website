@@ -17,7 +17,7 @@ const DirectContact = () => {
             <h2 className="text-[20px] font-bold text-[#175888] leading-[1.3] mb-5">
               Tell us about your requirements.
             </h2>
-            <p className="text-[15px] text-[#667785] leading-[1.65] mb-8">
+            <p className="text-[15px] text-gray-500 leading-relaxed mb-8">
               We will help you understand the relevant professional service areas and next steps.
             </p>
             <Link

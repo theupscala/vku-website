@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Container from '../common/Container';
-import SectionHeading from '../common/SectionHeading';
 import Button from '../ui/Button';
 import aboutImg from '../../assets/images/services/financial-advisory.jpg';
 
@@ -23,11 +22,8 @@ const AboutPreview = () => {
 
           <div>
             <h2 className="text-[20px] font-bold text-vku-orange mb-3 text-left">About V. K. Umbarkar & Co.</h2>
-            <SectionHeading
-              title="a journey built on trust. a future shaped by possibility."
-              align="left"
-            />
-            <div className="space-y-5 text-vku-text-secondary text-[15px] leading-relaxed">
+            
+            <div className="space-y-5 text-gray-500 text-[15px] leading-relaxed">
               <p>
                 Established in 1986, V. K. Umbarkar & Co. has developed a professional practice serving businesses, institutions and banking organisations through audit, taxation, finance and advisory services.
               </p>
