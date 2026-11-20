@@ -6,11 +6,11 @@ import Container from '../common/Container';
 
 const IndustriesWeServe = () => {
   return (
-    <section className="py-[100px] lg:py-[120px] bg-[#F7F9FB]">
+    <section className="py-10 md:py-14 bg-[#F7F9FB] border-t border-gray-200/60">
       <Container className="max-w-[1440px] w-[90%] mx-auto px-4 md:px-0">
 
         {/* Header Section */}
-        <div className="mb-14 lg:mb-16 text-left">
+        <div className="mb-8 md:mb-10 text-left">
           <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange mb-4 lg:mb-5">
             Industries We Serve
           </h2>
@@ -23,7 +23,7 @@ const IndustriesWeServe = () => {
         </div>
 
         {/* Industries Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-7 mb-12 lg:mb-14">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-7 mb-8 md:mb-10">
           {industriesData.map((industry, index) => {
             const Icon = industry.icon;
             return (

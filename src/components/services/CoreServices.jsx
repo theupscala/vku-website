@@ -13,9 +13,9 @@ const CoreServices = () => {
   };
 
   return (
-    <div className="py-24 bg-[#F7F9FB]">
+    <div className="py-10 md:py-14 bg-[#F7F9FB]">
       <Container className="max-w-[880px]">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8 md:mb-10">
           <SectionHeading
             title="Core Services"
             align="center"
