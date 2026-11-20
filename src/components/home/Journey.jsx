@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Container from '../common/Container';
+import SectionHeading from '../common/SectionHeading';
 import { timelineData } from '../../data/timeline';
 import { Eye } from 'lucide-react';
 
@@ -33,8 +34,11 @@ const Journey = () => {
   return (
     <div className="py-24 bg-white overflow-hidden">
       <Container>
-        <div className="text-center mb-20">
-          <h2 className="text-[20px] font-bold text-[#59595b]">Our Story</h2>
+        <div className="text-center mb-16">
+          <SectionHeading
+            title="Our Story"
+            align="center"
+          />
         </div>
 
         <div
