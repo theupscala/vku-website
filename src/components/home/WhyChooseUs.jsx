@@ -48,7 +48,7 @@ const defaultReasons = [
 
 const WhyChooseUs = ({
   data = defaultReasons,
-  eyebrow = "Why choose VKU",
+  eyebrow = "",
   title = "Professional expertise. Practical understanding.",
   description = ""
 }) => {

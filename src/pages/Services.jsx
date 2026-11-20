@@ -12,18 +12,17 @@ const Services = () => {
       <div className="border-b border-vku-border">
         <ServicesHero />
       </div>
-      
+
       <CoreServices />
-      
+
       <IndustriesWeServe />
-      
-      <WhyChooseUs 
+
+      <WhyChooseUs
         data={whyChooseServices}
-        eyebrow="Why choose VKU"
         title="Professional expertise. Practical understanding."
         description="We bring together capabilities across audit, taxation, finance, banking and business advisory to support the varied requirements of our clients."
       />
-      
+
     </div>
   );
 };
