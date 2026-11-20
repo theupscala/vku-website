@@ -85,9 +85,9 @@ const LeadershipPartners = () => {
 
         {/* Managing Partner Section */}
         <div className="mb-16 lg:mb-20">
-          <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-10 lg:mb-12">
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-10 lg:mb-12">
             MANAGING PARTNER
-          </h4>
+          </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16 items-center">
             {/* Left: Professional Portrait */}
