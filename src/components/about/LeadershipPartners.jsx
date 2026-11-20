@@ -97,7 +97,7 @@ const LeadershipPartners = () => {
 
             {/* Right: Managing Partner Details */}
             <div className="flex flex-col">
-              <h3 className="text-[32px] lg:text-[40px] font-light text-[#175888] mb-2 leading-tight">
+              <h3 className="text-[32px] lg:text-[40px] font-bold text-[#175888] mb-2 leading-tight">
                 CA. Mayank Umbarkar
               </h3>
               <p className="text-[16px] lg:text-[18px] font-semibold text-[#667785] mb-2">
@@ -121,7 +121,7 @@ const LeadershipPartners = () => {
           <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4">
             OUR PARTNERS
           </h4>
-          <h3 className="text-[28px] lg:text-[36px] font-semibold text-[#175888] mb-10 lg:mb-12">
+          <h3 className="text-[28px] lg:text-[36px] font-bold text-[#175888] mb-10 lg:mb-12">
             Partners
           </h3>
 
@@ -136,7 +136,7 @@ const LeadershipPartners = () => {
                   <img src={partner.image} alt={partner.name} className="w-full h-full object-cover" />
                 </div>
                 <div className="mt-auto">
-                  <h4 className="text-[18px] lg:text-[17px] font-semibold text-[#172B3A] mb-1.5">
+                  <h4 className="text-[18px] lg:text-[17px] font-bold text-[#172B3A] mb-1.5">
                     {partner.name}
                   </h4>
                   <p className="text-[14px] lg:text-[15px] text-[#667785]">

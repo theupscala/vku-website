@@ -63,7 +63,7 @@ const OfficeDirectory = () => {
 
               {/* Location Name & Type */}
               <div className="mb-4">
-                <h3 className="text-[28px] lg:text-[32px] font-medium text-[#172B3A] mb-1.5 transition-colors duration-300 group-hover:text-[#175888]">
+                <h3 className="text-[28px] lg:text-[32px] font-bold text-[#172B3A] mb-1.5 transition-colors duration-300 group-hover:text-[#175888]">
                   {office.city}
                 </h3>
                 <p className="text-[17px] italic text-[#667785]">

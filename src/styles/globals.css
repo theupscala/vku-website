@@ -16,6 +16,7 @@
   h1, h2, h3, h4, h5, h6 {
     @apply text-vku-text-primary font-bold;
     font-family: 'Lato', sans-serif;
+    font-weight: 700;
   }
 
   p, span, a, button, input, textarea, select, label, li {

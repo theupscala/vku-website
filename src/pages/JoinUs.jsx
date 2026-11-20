@@ -32,7 +32,7 @@ const JoinUs = () => {
               <div className="w-14 h-14 bg-vku-primary/10 text-vku-primary rounded-xl flex items-center justify-center mx-auto mb-5">
                 <Briefcase className="w-7 h-7" />
               </div>
-              <h3 className="text-xl font-semibold text-vku-primary mb-2">Audit & Assurance</h3>
+              <h3 className="text-xl font-bold text-vku-primary mb-2">Audit & Assurance</h3>
               <p className="text-[15px] text-gray-500 leading-relaxed">
                 Opportunities for Article Assistants and Qualified Chartered Accountants.
               </p>
@@ -42,7 +42,7 @@ const JoinUs = () => {
               <div className="w-14 h-14 bg-vku-primary/10 text-vku-primary rounded-xl flex items-center justify-center mx-auto mb-5">
                 <Award className="w-7 h-7" />
               </div>
-              <h3 className="text-xl font-semibold text-vku-primary mb-2">Direct & Indirect Tax</h3>
+              <h3 className="text-xl font-bold text-vku-primary mb-2">Direct & Indirect Tax</h3>
               <p className="text-[15px] text-gray-500 leading-relaxed">
                 Roles focusing on tax planning, compliance, and corporate litigation.
               </p>
@@ -52,7 +52,7 @@ const JoinUs = () => {
               <div className="w-14 h-14 bg-vku-primary/10 text-vku-primary rounded-xl flex items-center justify-center mx-auto mb-5">
                 <Users className="w-7 h-7" />
               </div>
-              <h3 className="text-xl font-semibold text-vku-primary mb-2">Advisory & Consulting</h3>
+              <h3 className="text-xl font-bold text-vku-primary mb-2">Advisory & Consulting</h3>
               <p className="text-[15px] text-gray-500 leading-relaxed">
                 Positions in financial strategy, due diligence, and controller services.
               </p>
