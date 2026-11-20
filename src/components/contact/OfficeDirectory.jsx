@@ -34,12 +34,12 @@ const OfficeDirectory = () => {
 
         {/* Section Header */}
         <div className="mb-14 lg:mb-16">
-          <h4 className="text-[14px] md:text-[15px] font-bold tracking-[0.16em] text-[text-[#053151]] uppercase mb-5">
+          <h2 className="text-[20px] font-bold tracking-[0.16em] text-vku-orange uppercase mb-4">
             OUR LOCATIONS
-          </h4>
-          <h2 className="text-[20px] font-bold text-[#175888] leading-[1.3] mb-6">
-            Professional support across locations.
           </h2>
+          <h3 className="text-[20px] font-bold text-vku-primary leading-[1.3] mb-6">
+            Professional support across locations.
+          </h3>
           <p className="text-[15px] text-gray-500 leading-relaxed max-w-[800px]">
             With offices across four locations, VKU supports clients through its professional practice in:
           </p>
